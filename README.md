@@ -21,7 +21,7 @@ First step is to setup the API Role, User and consumer
 
 * Open the app in a browser. By default `http://localhost:3000/`
 * Fill in the details:
-    * Magento URL - the URL to your Magento installation (Ex: `http://mystore.com/`)
+    * Magento URL - the URL to your Magento installation (Ex: `http://mystore.com/`). Please note that you must include a trailing shlash
     * Admin path - the path to admin (Default: `admin` but change if you've setup a custom path in local.xml)
     * Client Key - the consumer key generated at step 1
     * Client Secret - the consumer secret generated at step 1

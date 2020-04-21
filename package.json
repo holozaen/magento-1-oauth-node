@@ -1,21 +1,20 @@
 {
-  "name": "magento-1-oauth",
+  "name": "magento-1-oauth-node",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
+    "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.3",
-    "crypto": "0.0.3",
     "debug": "~2.6.3",
-    "express": "~4.15.2",
+    "express": "^4.17.1",
     "express-session": "^1.15.2",
-    "hbs": "~4.0.1",
-    "morgan": "~1.8.1",
+    "hbs": "^4.1.1",
+    "morgan": "^1.10.0",
     "oauth-1.0a": "^2.1.0",
-    "request": "^2.81.0",
+    "request": "^2.88.2",
     "serve-favicon": "~2.4.2"
   }
 }
